@@ -1,0 +1,53 @@
+{
+	"Orders": [{
+		"ReportId": "detail1",
+		"text": "Flexible Real Estate",
+			"nodes": [{
+			"text": "RE Contracts",
+			"ReportId": "detail1.1",
+			"nodes": [{
+				"text": "Overview",
+				"ReportId": "detail1.1.1"
+			}, {
+				"text": "Term",
+				"ReportId": "detail1.1.2"
+			}, {
+				"text": "Notice",
+				"ReportId": "detail1.1.3"
+			}, {
+				"text": "Renewal",
+				"ReportId": "detail1.1.4"
+			}]
+		}, {
+			"text": "RE Business Partner",
+			"ReportId": "detail1.2",
+			"nodes": [{
+				"text": "Objects by Business Partner",
+				"ReportId": "detail1.2.1"
+			}, {
+				"text": "Business Partners for Usage Objects",
+				"ReportId": "detail1.2.2"
+			}]
+		}]
+	}, {
+	
+		"text": "BW-RE Reports New",
+		"ReportId": "detail2",
+		"nodes": [{
+				"text": "Monthly Lease Budget Variance",
+				"ReportId": "detail2.1"
+			}, {
+				"text": "Closed/Other Lease List Report",
+				"ReportId": "detail2.2"
+			}, {
+				"text": "Active Lease List Report",
+				"ReportId": "detail2.3"
+			}, {
+				"text": "Master Real Estate Portfolio by Region",
+				"ReportId": "detail2.4"
+			}
+
+		]
+
+	}]
+}

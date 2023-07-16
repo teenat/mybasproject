@@ -1,0 +1,12 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="zapp.ZUI5Report_App.controller.Master"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	
+			<Page title="Title">
+				<Tree selectionChange="onSelectionChange" mode="SingleSelectMaster" id="Tree" items="{/Orders}">
+					<items>
+						<StandardTreeItem title="{text}"/>
+					</items>
+				</Tree>
+			</Page>
+	
+</mvc:View>
